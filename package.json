@@ -1,0 +1,32 @@
+{
+  "name": "invalidate-module",
+  "version": "0.0.1",
+  "description": "Removes a module and all of its dependents from the require cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js | tap-spec"
+  },
+  "repository": "https://github.com/kentor/invalidate-module",
+  "keywords": [
+    "hot reloading",
+    "invalidate module",
+    "invalidate require",
+    "module dependencies",
+    "require cache",
+    "require",
+  ],
+  "author": "Kenneth Chung <ken70r@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kentor/invalidate-module/issues"
+  },
+  "homepage": "https://github.com/kentor/invalidate-module",
+  "dependencies": {
+    "debug": "^2.6.6",
+    "dependency-graph": "^0.5.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
