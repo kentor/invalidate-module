@@ -1,5 +1,7 @@
 # invalidate-module
 
+[![Build Status](https://travis-ci.org/kentor/invalidate-module.svg)](https://travis-ci.org/kentor/invalidate-module) [![npm](https://img.shields.io/npm/v/invalidate-module.svg)](https://www.npmjs.com/package/invalidate-module)
+
 Removes a module and all of its dependents from the require cache, so that
 subsequent requires of that module or any of its dependents will return new
 copies.

@@ -6,11 +6,9 @@ function resetAllTo2() {
     invalidate(require.resolve(m));
   });
 
-  for (let i = 0; i <= 2; i++) {
-    ['./a', './b', './c', './d', './e'].forEach(m => {
-      require(m)();
-    });
-  }
+  ['./a', './b', './c', './d', './e'].forEach(m => {
+    [0, 1, 2].forEach(require(m));
+  });
 }
 
 test('invalidates a leaf', t => {
