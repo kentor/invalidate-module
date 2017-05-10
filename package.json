@@ -12,8 +12,9 @@
     "invalidate module",
     "invalidate require",
     "module dependencies",
+    "react templates",
     "require cache",
-    "require",
+    "require"
   ],
   "author": "Kenneth Chung <ken70r@gmail.com>",
   "license": "MIT",
