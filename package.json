@@ -1,6 +1,6 @@
 {
   "name": "invalidate-module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Removes a module and all of its dependents from the require cache",
   "main": "index.js",
   "scripts": {
